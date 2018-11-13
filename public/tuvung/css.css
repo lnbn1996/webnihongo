@@ -1,0 +1,130 @@
+@charset "utf-8";
+  @media screen and (max-width: 900px) {
+          .image-slide-title {
+             /* do what you want here */
+             display: none !important;
+          }
+      }
+
+body{
+	background-image: url(../../image/background.png);
+	background-repeat: no-repeat;
+	min-width: 1000px;
+}
+
+#container{
+	margin-top: -0.5%;
+	margin-left: -0.5%;
+	margin-right: 0%;
+	height: 600px;
+	width: 101%;
+
+}
+#header{
+	text-align:right;
+	margin-top: -25%;
+	height: 115px;
+	width: 35%;
+	min-width: 400px;
+	border-radius: 50px;
+	border: dashed medium #870B2E;
+	background-image:url(../../image/8658159da514c52.jpg);
+	background-size: 70% 100%;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-color:#FFB8CE;
+	background-blend-mode:darken;
+	margin-left: 30%;
+	margin-right: 20%;
+	padding-top: 5%;
+	padding-right:2%;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 50px;
+	font-weight:bolder;
+	margin-bottom: 80px;
+	
+	
+}
+#content{
+	height: 360px;
+	width: 100%;
+	display: flex;
+	
+}
+#content-box1{
+	margin-top: 50px;
+	height: 500px;
+	width: 80%;
+	margin-right: 14%;
+	border: dashed #2149A4;
+	border-radius: 100px;
+	margin-left: 12%;
+	min-width: 900px;
+	padding-right: 5%;
+	background-image: url(../../image/content-box.png)
+
+}
+#content-box li{
+	float: left;
+	list-style-type: none;
+	margin-right: 50px;
+}
+#row1{
+	padding-top: 8%;
+	padding-left: 8%;
+	padding-right: 8%;
+	display: flex;
+	margin-top: 4%;
+}
+#row2{
+	padding-top: 10%;
+	padding-left: 22%;
+	display: flex;
+}
+button{
+	height: 120px;
+	width: 200px;
+	min-width: 200px;
+	background-image: url(../../image/54815267.jpg);
+	
+	background-size: 50% 105%;
+	background-position: left center;
+	background-repeat: no-repeat;
+	border-radius: 20px;
+	border-bottom-left-radius: 53px;
+	border-top-left-radius: 60px;
+	background-color: #FFFFFF;
+	padding-right: 2%;
+	text-align: right;
+	padding-top: 0.5%;
+	color: black;
+	font-size: 30px;
+	margin-left: 8%;
+	font-weight: bolder;
+}
+
+a{
+	text-decoration: none;
+}
+
+#home{
+	margin-top: 2px;
+	width: 80px;
+	border: dashed thin;
+	border-radius: 100px;
+	margin-left: 1%;
+
+}
+
+#trangchu{
+	margin-left: 1%;
+	font-size: 20px;
+	color: #0D0909;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+#game{
+	margin-left: 2.5%;
+	font-size: 20px;
+	color: #0D0909;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}

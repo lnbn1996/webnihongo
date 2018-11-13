@@ -1,0 +1,92 @@
+body{
+	background-image: url(../../image/background.png);
+	background-repeat: repeat;
+	font-size: 20px;
+}
+
+#content{
+	min-height: 500px;
+	width: 80%;
+	background-image: url(../../image/sunset_Japan_minimalistic_yellow_samurai_funny_1280x720.jpg);
+	margin-top: 5%;
+	margin-left: 13%;
+	border-radius: 20px;
+	border: dashed thin #8E8906;
+	background-size: 100% 100%;
+	background-color:#DDCE3F;
+	background-repeat:no-repeat;
+}
+
+table {
+	margin-top: 3%;
+	margin-left: 5%;
+	margin-right: 18%;
+	margin-bottom: 2%;
+/*	border : dashed;*/
+	
+}
+
+#header{
+	text-align: center;
+	width: 30%;
+	height: 125px;
+	min-height: 50px;
+	min-width: 200px;
+	border: dashed thin;
+	margin-left: 35%;
+	margin-right: 33%;
+	margin-top: -35%;
+	background-image: url(../../image/japanese-background-sacur-2341128.jpg);
+	background-size: 100% 100%;
+	padding-top: 2%;
+	border-radius: 20px;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+th:first-child{
+/*	border: dashed;*/
+	width: 250px;	
+	padding-bottom: 10px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 30px;
+	padding-right: 25%;
+	padding-left: 10%;
+}
+th{
+/*	border: dashed;*/
+	width: 390px;	
+	padding-bottom: 10px;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	font-size: 30px;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+td{
+	border: dashed thin;
+	padding-left: 5%;	
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+}
+a{
+	text-decoration: none;
+}
+
+#home{
+	margin-top: 2px;
+	width: 80px;
+	border: dashed thin;
+	border-radius: 100px;
+	margin-left: 1%;
+
+}
+
+#trangchu{
+	margin-left: 1%;
+	font-size: 20px;
+	color: #0D0909;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+#game{
+	margin-left: 2.5%;
+	font-size: 20px;
+	color: #0D0909;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
